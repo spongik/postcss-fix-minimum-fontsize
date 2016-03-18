@@ -1,0 +1,31 @@
+{
+  "name": "postcss-fix-minimum-fontsize",
+  "version": "1.0.0",
+  "description": "PostCSS plugin that deals with \"minimum font size\" browser option",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin"
+  ],
+  "author": "spongik",
+  "license": "MIT",
+  "repository": "spongik/postcss-fix-minimum-fontsize",
+  "bugs": {
+    "url": "https://github.com/spongik/postcss-fix-minimum-fontsize/issues"
+  },
+  "homepage": "https://github.com/spongik/postcss-fix-minimum-fontsize",
+  "dependencies": {
+    "postcss": "^5.0.16"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "eslint": "^2.1.0",
+    "eslint-config-postcss": "^2.0.0"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
